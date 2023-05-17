@@ -78,7 +78,11 @@ while game_is_runing:
     if ball_was_fired:
          screen.blit(ball_image, (ball_x, ball_y))
 
+    game_score_text = game_font.render(f'Score: {game_score}', True, 'white')
+    screen.blit(game_score_text, (20, 20))
+
     pygame.display.update()
+
 
     if alien_y + alien_hegiht > fighter_y:
          game_is_runing = False
@@ -97,6 +101,6 @@ game_over_rectangle.center = (screen_width / 2, screen_height / 2)
 screen.blit(game_over_text, game_over_rectangle)
 
 pygame.display.update()
-pygame.time.wait(2000)
+pygame.time.wait(1000)
 
 pygame.quit()
