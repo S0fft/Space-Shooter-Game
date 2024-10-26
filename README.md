@@ -1,6 +1,6 @@
 # Space-Shooter-Game
 #### Space-Shooter-Game — Game Project on Pygame
-A small game developed using the Pygame library in Python. The goal is to hit incoming targets from above with a rocket-powered ball, controlled by a space shuttle. Each successful hit earns 1 point, which accumulates in the score counter. As the score increases, the game becomes more challenging, with alien targets descending faster from above.
+The game developed using the Pygame library in Python. The goal is to hit incoming targets from above with a rocket-powered ball, controlled by a space shuttle. Each successful hit earns 1 point, which accumulates in the score counter. As the score increases, the game becomes more challenging, with alien targets descending faster from above.
 
 #### Stack:
 - Python
