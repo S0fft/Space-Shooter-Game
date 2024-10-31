@@ -6,17 +6,18 @@ The game developed using the Pygame library in Python. The goal is to hit incomi
 - Python
 - Pygame
 
-And other small libraries specified in `requirements.txt`.
+Additional libraries are specified in the `requirements.txt` file.
 
 ## Project Setup on Windows
 
-### - Stack Installing
+### - Installing the Stack
 To begin, install Python: https://www.python.org/downloads/
 <br>
 Links are provided to the latest version of the language.
 
 ### - Cloning a Project from GitHub
 Create a root directory on your computer, then open it in your code editor or terminal.
+Next, write this command into the command line:
 <br>
 Next, write this command into the command line:
 ```powershell
@@ -24,8 +25,8 @@ https://github.com/S0fft/Space-Shooter-Game.git .
 ```
 You will see the project files appear in your directory.
 
-### - Creating Virtual Environment
-Create virtual environment:
+### - Creating a Virtual Environment
+Create a virtual environment:
 ```powershell
 python -m venv .venv
 ```
@@ -36,7 +37,7 @@ And activate it:
 .venv\Scripts\Activate
 ```
 
-### - Installing Requirements
+### - Installing the Requirements
 Next, install packages:
 
 ```powershell
@@ -57,7 +58,7 @@ python main.py
 These commands do the same thing as described above but only on Unix systems: 
 <br>
 
-### - Stack Installing
+### - Installing the Stack
 Install Python: https://www.python.org/downloads/
 <br>
 Link are provided to the latest version of the language.
@@ -71,7 +72,7 @@ https://github.com/S0fft/Space-Shooter-Game.git .
 ```
 You will see the project files appear in your directory.
 
-### - Creating Virtual Environment
+### - Creating a Virtual Environment
 ```bash
 python3 -m venv ../venv
 ```
@@ -80,7 +81,7 @@ python3 -m venv ../venv
 source ../venv/bin/activate
 ```
 
-### - Installing Requirements
+### - Installing the Requirements
 ```bash
 python3 -m pip install --upgrade pip
 ```
